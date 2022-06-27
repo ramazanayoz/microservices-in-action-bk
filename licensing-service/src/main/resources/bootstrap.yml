@@ -1,6 +1,7 @@
+
 spring:
   application:
-    name: licensingservice
+    name: licensingservice #Logical name of the service that will be registered with Eureka
   profiles:
     active:
       default
@@ -10,3 +11,6 @@ spring:
 #      discovery:
 #        enabled: true
 #        serviceId: configserver
+encrypt:
+  key: "IMSYMMETRIC" # for local without docker
+

@@ -1,9 +1,12 @@
 spring:
   application:
-    name: organizationservice
+    name: organizationservice #Logical name of the service that will be registered with Eureka
   profiles:
     active:
       default
   cloud:
     config:
       enabled: true
+
+server:
+  port: 8086 # for local without docker
