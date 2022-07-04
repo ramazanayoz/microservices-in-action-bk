@@ -14,3 +14,11 @@ spring:
 encrypt:
   key: "IMSYMMETRIC" # for local without docker
 
+
+
+#Setting the logging levels for the service
+logging:
+  level:
+    com.netflix: WARN
+    org.springframework.web: WARN
+    com.thoughtmechanix: DEBUG

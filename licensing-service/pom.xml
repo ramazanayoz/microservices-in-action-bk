@@ -76,7 +76,19 @@
           <groupId>org.springframework.cloud</groupId>
           <artifactId>spring-cloud-starter-eureka</artifactId>
       </dependency>
+      <!-- starter hystrix dependency-->
+      <dependency>
+          <groupId>org.springframework.cloud</groupId>
+          <artifactId>spring-cloud-starter-hystrix</artifactId>
+      </dependency>
+      <!-- hystrix javanica dependency-->
+      <dependency>
+          <groupId>com.netflix.hystrix</groupId>
+          <artifactId>hystrix-javanica</artifactId>
+          <version>1.5.9</version>
+      </dependency>
   </dependencies>
+
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
